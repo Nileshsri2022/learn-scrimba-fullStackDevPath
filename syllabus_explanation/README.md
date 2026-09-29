@@ -15,7 +15,7 @@ actually covers, and what is a verified gap.
 - [06. Essential CSS](./06-essential-css/README.md) — written (gap documented)
 - [07. Essential JavaScript](./07-essential-javascript/README.md) — written (Section 04 covered; Sections 01–03 absent)
 - [08. Responsive Design](./08-responsive-design/README.md) — written (gap documented)
-- [09. APIs and Async JavaScript](./09-apis-and-async-javascript/README.md) — placeholder
+- [09. APIs and Async JavaScript](./09-apis-and-async-javascript/README.md) — written (fundamentals covered; projects absent)
 - [10. AI Engineering](./10-ai-engineering/README.md) — written (partial transcript coverage)
 - [11. Node.js](./11-node-js/README.md) — placeholder
 - [12. Databases](./12-databases/README.md) — placeholder
