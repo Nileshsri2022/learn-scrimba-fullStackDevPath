@@ -1,0 +1,1553 @@
+SCRIMBA FULLSTACK DEVELOPER PATH
+REPOSITORY-DERIVED COMPLETE SYLLABUS
+========================================================================
+
+Source repository: https://github.com/scrimba/learn-fullstack-development.git
+Source revision: e2be397
+Generated: 29 September 2026
+
+SCOPE
+------------------------------------------------------------------------
+This syllabus is an ordered, repository-derived outline of the learning
+activities included in the supplied Scrimba challenge-files repository. It
+contains 20 modules, 85 top-level sections, and 1391
+named sections, lessons, projects, and nested practice items after excluding
+implementation assets (such as src, public, images, coverage, and duplicate original files).
+
+The source repository contains challenge files rather than every video/scrim
+in the hosted course. Therefore, gaps in lesson numbers indicate material that
+has no corresponding folder in this repository; they are intentionally kept
+rather than renumbered. Folder titles are retained as the source of truth.
+
+HOW TO READ THE OUTLINE
+------------------------------------------------------------------------
+• MODULE: a major course phase.
+  SECTION / UNIT: a topic, build, project, or challenge collection within that phase.
+    LESSON / ACTIVITY: a sequenced repository learning item.
+      PRACTICE: an exercise nested under that activity.
+
+MODULE MAP
+------------------------------------------------------------------------
+01. Introduction — Orientation to the learning platform and a first hands-on web page.
+02. HTML and CSS Fundamentals — Semantic HTML, CSS foundations, layout, typography, and introductory web-page projects.
+03. JavaScript Fundamentals — JavaScript syntax, program logic, DOM manipulation, browser storage, and interactive projects.
+04. Tools of the Trade — Command line workflows, local development setup, Git, GitHub, issues, branches, and pull requests.
+05. Accessible Development — Inclusive web design: contrast, color, text alternatives, labels, semantic structure, ARIA, and keyboard navigation.
+06. Essential CSS — Practical CSS architecture and styling through production-style site builds.
+07. Essential JavaScript — Applied modern JavaScript through browser apps and a series of mini-projects.
+08. Responsive Design — Responsive layouts, media queries, flexbox/grid techniques, and product-page implementation.
+09. APIs and Async JavaScript — HTTP, REST, browser APIs, asynchronous JavaScript, and an API-based capstone.
+10. AI Engineering — AI engineering foundations, retrieval-augmented generation, vector databases, and agent concepts.
+11. Node.js — Server-side JavaScript with Node, API construction, and a full-stack Node application.
+12. Databases — Relational database concepts, SQL queries, table design, and joins.
+13. Express.js — Express APIs, full-stack integration, authentication, authorization, and backend application practices.
+14. User Interface Design — Interface-design principles, layout composition, and dashboard design refactoring.
+15. React.js Fundamentals — React components, data-driven UIs, state, effects, and capstone games.
+16. Testing — Component/application testing, user interactions, mocking, accessibility testing, and test-driven development.
+17. Advanced React.js — Reusable component patterns, performance, routing, persistence, and authentication.
+18. TypeScript — TypeScript language fundamentals, React typing, and a typed Tenzies project.
+19. Next.js — Next.js application structure, routing, layouts, image optimization, server/client components, and rendering strategies.
+20. Launching Your Career — Technical interview preparation with JavaScript, React, frontend, workflow, and agile challenges.
+
+========================================================================
+DETAILED COURSE OUTLINE
+========================================================================
+
+========================================================================
+MODULE 01. Introduction
+========================================================================
+Learning focus: Orientation to the learning platform and a first hands-on web page.
+  SECTION / UNIT: 01. Learn the Platform
+    LESSON / ACTIVITY: 01. Let_s Make a Cake
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+  SECTION / UNIT: 02. Your First App
+    LESSON / ACTIVITY: 01. Add your Name and Emoji
+    LESSON / ACTIVITY: 02. Display Photos
+    LESSON / ACTIVITY: 03. Change the Background Image
+    LESSON / ACTIVITY: 04. Choose a Color
+    LESSON / ACTIVITY: 05. Set the Font, Border, and Column Count
+
+========================================================================
+MODULE 02. HTML and CSS Fundamentals
+========================================================================
+Learning focus: Semantic HTML, CSS foundations, layout, typography, and introductory web-page projects.
+  SECTION / UNIT: 01. Intro to HTML
+    LESSON / ACTIVITY: 01. HTML tags
+    LESSON / ACTIVITY: 02. Write a news article
+    LESSON / ACTIVITY: 03. The _img_ tag
+    LESSON / ACTIVITY: 06. Buttons
+    LESSON / ACTIVITY: 07. Input tags
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 08. Let_s build Google
+    LESSON / ACTIVITY: 09. Anchor tags
+    LESSON / ACTIVITY: 10. Add an anchor tag to Google.com
+    LESSON / ACTIVITY: 11. Proper document structure
+    LESSON / ACTIVITY: 12. Lists
+    LESSON / ACTIVITY: 13. Build a Personal Website
+  SECTION / UNIT: 02. Intro to CSS
+    LESSON / ACTIVITY: 02. Write your first lines of CSS
+    LESSON / ACTIVITY: 05. Link to the CSS file
+    LESSON / ACTIVITY: 06. Set the width of the elements
+    LESSON / ACTIVITY: 07. inline vs block elements
+    LESSON / ACTIVITY: 08. Margin top
+    LESSON / ACTIVITY: 10. CSS classes
+    LESSON / ACTIVITY: 11. Learn margin via flags
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 12. Add space between our elements
+    LESSON / ACTIVITY: 14. Centering our content
+    LESSON / ACTIVITY: 15. Padding
+    LESSON / ACTIVITY: 16. Border and border-radius
+    LESSON / ACTIVITY: 17. Aside challenge- style Twitter button
+    LESSON / ACTIVITY: 18. Fix the input field
+    LESSON / ACTIVITY: 19. Center the button
+    LESSON / ACTIVITY: 20. Style the button
+    LESSON / ACTIVITY: 21. Why we can_t have two block-level buttons
+    LESSON / ACTIVITY: 23. Centering both buttons with flexbox
+  SECTION / UNIT: 03. Build a Business Card
+    LESSON / ACTIVITY: 02. Fix the image path
+    LESSON / ACTIVITY: 03. More on Relative Paths
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 04. Add alt attribute
+    LESSON / ACTIVITY: 05. Make image smaller
+    LESSON / ACTIVITY: 06. Add a border and padding
+    LESSON / ACTIVITY: 08. Flex item containers
+    LESSON / ACTIVITY: 09. Add a utility class
+    LESSON / ACTIVITY: 10. Justify the items
+    LESSON / ACTIVITY: 11. Center the card
+    LESSON / ACTIVITY: 12. Aside- inheritance (Updated)
+    LESSON / ACTIVITY: 13. Center the text via inheritance
+    LESSON / ACTIVITY: 14. Add colors
+    LESSON / ACTIVITY: 15. Web-safe fonts
+    LESSON / ACTIVITY: 16. Margin_padding shorthand
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 17. Use the margin&padding shorthands
+  SECTION / UNIT: 04. Build a Space Exploration Layout
+    LESSON / ACTIVITY: 03. Center elements and style button
+    LESSON / ACTIVITY: 04. Google Fonts
+    LESSON / ACTIVITY: 05. @font-face
+    LESSON / ACTIVITY: 08. Add an underline using a span
+    LESSON / ACTIVITY: 09. Use an ID for the logo
+    LESSON / ACTIVITY: 12. Add the terms & conditions section
+    LESSON / ACTIVITY: 13. Aside- text shadow
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 14. Improving the readability with text shadows
+  SECTION / UNIT: 05. Build a Birthday Website
+    LESSON / ACTIVITY: 02. Add basic header styling
+    LESSON / ACTIVITY: 03. Set the colors
+    LESSON / ACTIVITY: 04. Add shadow on text
+    LESSON / ACTIVITY: 06. Align-items
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 07. Flex-direction
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 08. Turn the header into a flexbox
+    LESSON / ACTIVITY: 09. Fix date and age design
+    LESSON / ACTIVITY: 10. Create the first gift
+    LESSON / ACTIVITY: 11. Replace the img with div
+    LESSON / ACTIVITY: 13. Add the hover effect
+    LESSON / ACTIVITY: 14. Create the next GIFt
+    LESSON / ACTIVITY: 15. Create two more GIFts
+    LESSON / ACTIVITY: 16. Create the final GIFt
+    LESSON / ACTIVITY: 17. ARIA roles and attributes for background images
+    LESSON / ACTIVITY: 18. Add the footer
+    LESSON / ACTIVITY: 19. Add a background gradient
+
+========================================================================
+MODULE 03. JavaScript Fundamentals
+========================================================================
+Learning focus: JavaScript syntax, program logic, DOM manipulation, browser storage, and interactive projects.
+  SECTION / UNIT: 01. Build a Counter App
+    LESSON / ACTIVITY: 03. Write your first JavaScript variable
+    LESSON / ACTIVITY: 04. Basic mathematical operations
+    LESSON / ACTIVITY: 05. Reassigning and incrementing
+    LESSON / ACTIVITY: 06. Adding a button
+    LESSON / ACTIVITY: 09. Write your first function
+    LESSON / ACTIVITY: 10. Write a function that logs the sum
+    LESSON / ACTIVITY: 11. Write a function that increments
+    LESSON / ACTIVITY: 12. Increment on clicks
+    LESSON / ACTIVITY: 15. Display the count with innerText
+    LESSON / ACTIVITY: 16. Create the save button
+    LESSON / ACTIVITY: 18. Write your first string variable
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 19. Log a greeting to the console
+    LESSON / ACTIVITY: 20. Strings vs. Numbers
+    LESSON / ACTIVITY: 22. Render a welcome message
+    LESSON / ACTIVITY: 23. Improve the message with string concatenation
+    LESSON / ACTIVITY: 24. Use plus equal for count
+    LESSON / ACTIVITY: 25. Create the save feature
+    LESSON / ACTIVITY: 27. Set the count to 0
+    LESSON / ACTIVITY: 29. JavaScript challenges
+      PRACTICE: 01. Variables practice
+      PRACTICE: 02. Concatenate two strings in a function
+      PRACTICE: 03. Incrementing and decrementing
+      PRACTICE: 04. Strings and numbers
+      PRACTICE: 05. Rendering an error message
+      PRACTICE: 06. Calculator challenge
+      PRACTICE: 07. Arithmetic Operator Precedence
+  SECTION / UNIT: 02. Solo Project - Basketball Scoreboard
+  SECTION / UNIT: 04. Build a Blackjack Game
+    LESSON / ACTIVITY: 01. Add the firstCard. secondCard, and sum
+    LESSON / ACTIVITY: 03. Your first if...else statement
+    LESSON / ACTIVITY: 04. if_else...if_else statement
+    LESSON / ACTIVITY: 05. The if...else statement for our game
+    LESSON / ACTIVITY: 08. Add the isAlive variable
+    LESSON / ACTIVITY: 09. Let_s practice boolean conditions
+    LESSON / ACTIVITY: 10. Add the message variable
+    LESSON / ACTIVITY: 11. Link to stylesheet
+    LESSON / ACTIVITY: 12. Add basic styling
+    LESSON / ACTIVITY: 13. Make the start button work
+    LESSON / ACTIVITY: 14. Display the message
+    LESSON / ACTIVITY: 15. Display the sum
+    LESSON / ACTIVITY: 16. Display the cards
+    LESSON / ACTIVITY: 17. New card button
+    LESSON / ACTIVITY: 18. Add to the sum when newCard is clicked
+    LESSON / ACTIVITY: 19. Rename the startGame function
+    LESSON / ACTIVITY: 21. Aside- Intro to arrays
+    LESSON / ACTIVITY: 22. Aside- Array indexes
+    LESSON / ACTIVITY: 23. Arrays with multiple data types
+    LESSON / ACTIVITY: 24. Array- Array.push() and .pop()
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 25. Creating the cards array
+    LESSON / ACTIVITY: 26. Push a new card to the array
+    LESSON / ACTIVITY: 27. Aside- Loops
+    LESSON / ACTIVITY: 28. Write your first loop
+    LESSON / ACTIVITY: 30. Write your first array-based for loop
+    LESSON / ACTIVITY: 31. For loops, arrays, and DOM
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 32. Use a loop to render cards
+    LESSON / ACTIVITY: 34. Aside- Returning values in functions
+    LESSON / ACTIVITY: 35. Use a function to set the card values
+    LESSON / ACTIVITY: 36. Aside- Math.random()
+    LESSON / ACTIVITY: 37. Math.random() _ 6
+    LESSON / ACTIVITY: 38. Flooring the number with Math.floor()
+    LESSON / ACTIVITY: 39. Using Math.random() and Math.floor() to createa dice
+    LESSON / ACTIVITY: 40. Completing our dice function
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 41. Make getRandomCard() work
+    LESSON / ACTIVITY: 42. Complete getRandomNumber function
+    LESSON / ACTIVITY: 43. Assign values in the startGame function
+    LESSON / ACTIVITY: 46. Write your first logical operator
+    LESSON / ACTIVITY: 47. Aside- The OR operator (II)
+    LESSON / ACTIVITY: 48. Only trigger newCard() if you_re allowed to
+    LESSON / ACTIVITY: 51. Create your first object
+    LESSON / ACTIVITY: 52. Use an object to store player data
+    LESSON / ACTIVITY: 56. JavaScript challenges
+      PRACTICE: 01. Objects and functions
+      PRACTICE: 02. if else
+      PRACTICE: 03. Loops and arrays
+      PRACTICE: 04. push, pop, unshift, shift challenge
+      PRACTICE: 05. Logical operators
+      PRACTICE: 06. Rock papers scissors
+      PRACTICE: 07. EmojiFighter
+      PRACTICE: 08. Sorting fruits
+  SECTION / UNIT: 06. Build a Chrome Extension
+    LESSON / ACTIVITY: 01. Add button and input tag
+    LESSON / ACTIVITY: 02. Style the button and input tag
+    LESSON / ACTIVITY: 03. Make the input button work with onclick
+    LESSON / ACTIVITY: 05. Write your first addEvent Listener()
+    LESSON / ACTIVITY: 06. Your turn to refactor
+    LESSON / ACTIVITY: 07. Create the myLeads array and inputEI
+    LESSON / ACTIVITY: 08. When to use let and const
+    LESSON / ACTIVITY: 09. Push to the myLeads array
+    LESSON / ACTIVITY: 10. Push the value from the input field
+    LESSON / ACTIVITY: 11. Use a for loop to log out leads
+    LESSON / ACTIVITY: 12. Create the unordered list
+    LESSON / ACTIVITY: 13. Render the leads in the unordered list
+    LESSON / ACTIVITY: 15. Write your first innerHTML
+    LESSON / ACTIVITY: 16. More innerHTML practice
+    LESSON / ACTIVITY: 17. Render the _li_ elements with innerHTML
+    LESSON / ACTIVITY: 18. Use createElement() and append() instead of innerHTML
+    LESSON / ACTIVITY: 19. Improving the performance of our app
+    LESSON / ACTIVITY: 20. Create the render function
+    LESSON / ACTIVITY: 21. Clear the input field
+    LESSON / ACTIVITY: 23. Add the _a_ tag
+    LESSON / ACTIVITY: 25. Write your first template string
+    LESSON / ACTIVITY: 26. Make the template string even more dynamic
+    LESSON / ACTIVITY: 27. Template strings on multiple lines
+    LESSON / ACTIVITY: 28. Refactor the app to use a template string
+    LESSON / ACTIVITY: 30. Style the list
+    LESSON / ACTIVITY: 34. Your first localStorage
+    LESSON / ACTIVITY: 35. Storing arrays in localStorage
+    LESSON / ACTIVITY: 36. Save the leads to localStorage
+    LESSON / ACTIVITY: 37. Get the leads from localStorage
+    LESSON / ACTIVITY: 39. Guess the expression - truthy ir falsy_
+    LESSON / ACTIVITY: 40. Checking localStorage before rendering
+    LESSON / ACTIVITY: 41. Style the delete button
+    LESSON / ACTIVITY: 42. Make the delete button work
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 44. Write your first function parameter
+    LESSON / ACTIVITY: 45. Functions with multiple parameters
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 46. Numbers as function parameters
+    LESSON / ACTIVITY: 47. Aside- Arguements vs Parameters
+    LESSON / ACTIVITY: 48. Arrays as parameters
+    LESSON / ACTIVITY: 49. Refactor renderLeads() to use a parameter
+    LESSON / ACTIVITY: 50. Create the tabBtn
+    LESSON / ACTIVITY: 51. Save the tab url
+    LESSON / ACTIVITY: 56. JavaScript challenges - part 3
+      PRACTICE: 01. let & const
+      PRACTICE: 02. Log out items in an array
+      PRACTICE: 03. save to localStorage
+      PRACTICE: 04. addEventListener and object in array
+      PRACTICE: 05. Generate sentence
+      PRACTICE: 06. Render images
+      PRACTICE: 07. Rounding numbers
+      PRACTICE: 08. Convert string to number challenge
+
+========================================================================
+MODULE 04. Tools of the Trade
+========================================================================
+Learning focus: Command line workflows, local development setup, Git, GitHub, issues, branches, and pull requests.
+  SECTION / UNIT: 01. Command Line Fundamentals
+    LESSON / ACTIVITY: 03. Inspect the file tree
+    LESSON / ACTIVITY: 04. Rules of navigation
+    LESSON / ACTIVITY: 05. Create & delete files
+    LESSON / ACTIVITY: 06. Create & delete directories
+    LESSON / ACTIVITY: 07. Write to files
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 08. Read from files
+  SECTION / UNIT: 02. Command Line Power Tools
+    LESSON / ACTIVITY: 03. Local setup
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+      PRACTICE: Exercise 4
+      PRACTICE: Exercise 5
+  SECTION / UNIT: 03. Essential Git and GitHub Skills
+    LESSON / ACTIVITY: 02. Make an issue in GitHub
+    LESSON / ACTIVITY: 03. Creating a Branch
+    LESSON / ACTIVITY: 04. Creating a Pull Request
+    LESSON / ACTIVITY: 06. Pulling
+
+========================================================================
+MODULE 05. Accessible Development
+========================================================================
+Learning focus: Inclusive web design: contrast, color, text alternatives, labels, semantic structure, ARIA, and keyboard navigation.
+  SECTION / UNIT: 02. Aside- Text contrast
+  SECTION / UNIT: 03. Aside- Use of color
+  SECTION / UNIT: 04. Text contrast
+    LESSON / ACTIVITY: Exercise 1
+    LESSON / ACTIVITY: Exercise 2
+  SECTION / UNIT: 05. Aside- Alternative text
+  SECTION / UNIT: 06. Aside- Links
+  SECTION / UNIT: 07. Links and alternative text
+  SECTION / UNIT: 08. Aside - Labels
+  SECTION / UNIT: 09. Aside - Radio buttons
+    LESSON / ACTIVITY: Exercise 1
+    LESSON / ACTIVITY: Exercise 2
+  SECTION / UNIT: 10. Labels
+  SECTION / UNIT: 11. Semantic HTML
+  SECTION / UNIT: 12. Lists
+  SECTION / UNIT: 13. Text-size
+  SECTION / UNIT: 14. Headings
+  SECTION / UNIT: 15. ARIA
+  SECTION / UNIT: 16. ARIA live regions
+    LESSON / ACTIVITY: Exercise 1
+    LESSON / ACTIVITY: Exercise 2
+  SECTION / UNIT: 19. Aside- Skip Navigation Link Part 1
+  SECTION / UNIT: 20. Aside- Skip Navigation Link Part 2
+  SECTION / UNIT: 21. Skip Navigation Link
+  SECTION / UNIT: 22. Final challenge part 1
+  SECTION / UNIT: 23. Final challenge part 2
+
+========================================================================
+MODULE 06. Essential CSS
+========================================================================
+Learning focus: Practical CSS architecture and styling through production-style site builds.
+  SECTION / UNIT: 01. Build an NFT Site
+    LESSON / ACTIVITY: 01. Semantic HTML - Header, Main, Section, Footer
+    LESSON / ACTIVITY: 02. Set up the CSS basics
+    LESSON / ACTIVITY: 03. Aside- Margins - strange behaviour
+    LESSON / ACTIVITY: 04. Header
+    LESSON / ACTIVITY: 05. The first section - image
+    LESSON / ACTIVITY: 06. The first section - text
+    LESSON / ACTIVITY: 07. Aside- Hover and active states
+    LESSON / ACTIVITY: 08. The first section - links
+    LESSON / ACTIVITY: 09. Aside- background full width
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 10. Content Container
+    LESSON / ACTIVITY: 11. CSS organisation
+    LESSON / ACTIVITY: 12. The second section colors
+    LESSON / ACTIVITY: 13. The second section imgs
+    LESSON / ACTIVITY: 14. Style the Footer
+    LESSON / ACTIVITY: 15. Grouping Selectors
+    LESSON / ACTIVITY: 18. Aside- Compound selectors
+    LESSON / ACTIVITY: 19. Aside- Compound selectors and specificity
+    LESSON / ACTIVITY: 20. Line-height debug
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 22. Aside- Buttons_Links
+    LESSON / ACTIVITY: 23. Style the buttons individually new
+    LESSON / ACTIVITY: 24. Aside- Inline-block
+    LESSON / ACTIVITY: 25. space out the buttons
+    LESSON / ACTIVITY: 26. Aside- A main class and a modifier class
+    LESSON / ACTIVITY: 27. Refactor the buttons
+  SECTION / UNIT: 02. Build a Portfolio
+    LESSON / ACTIVITY: 01. CSS Fundamentals- Challenge #1 - Setting up the layout
+    LESSON / ACTIVITY: 03. CSS Fundamentals- Challenge #2 - Google fonts
+    LESSON / ACTIVITY: 05. CSS Fundamentals- Challenge #3 - Setting up the typography
+    LESSON / ACTIVITY: 07. CSS Fundamentals- Challenge #4 - Making things a little more fancy
+    LESSON / ACTIVITY: 09. CSS Fundamentals- Challenge #5 - Breathing Room
+    LESSON / ACTIVITY: 11. CSS Fundamentals- Challenge #6 - Playing with colors
+    LESSON / ACTIVITY: 13. CSS Fundamentals- Challenge #7 - The finer details
+    LESSON / ACTIVITY: 15. CSS Fundamentals- Challenge #8 - Creating buttons
+    LESSON / ACTIVITY: 17. CSS Fundamentals- Challenge #9 - Fancier headings
+    LESSON / ACTIVITY: 19. CSS Fundamentals- Challenge #10 - Working with what you have
+  SECTION / UNIT: 04. Build a Coworking Space Site
+    LESSON / ACTIVITY: 01. Build the foundations
+    LESSON / ACTIVITY: 02. Aside- margin- auto on flexbox children
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 03. Position the menu icon
+    LESSON / ACTIVITY: 04. Aside- Position- relative & absolute
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 05. Add the image banner
+    LESSON / ACTIVITY: 06. Add buttons
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 07. Stop the vertical stretch on the button
+    LESSON / ACTIVITY: 09. Add the chatbox
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 11. z-index challenge
+
+========================================================================
+MODULE 07. Essential JavaScript
+========================================================================
+Learning focus: Applied modern JavaScript through browser apps and a series of mini-projects.
+  SECTION / UNIT: 01. Build a Cookie Consent
+    LESSON / ACTIVITY: 01. Position the modal
+    LESSON / ACTIVITY: 02. Aside- setTimeout
+    LESSON / ACTIVITY: 03. Set the timer
+    LESSON / ACTIVITY: 04. Aside- element.style
+    LESSON / ACTIVITY: 05. Make the modal reappear
+    LESSON / ACTIVITY: 06. Close the modal
+    LESSON / ACTIVITY: 07. Aside- Forms
+    LESSON / ACTIVITY: 08. Add a form 1
+    LESSON / ACTIVITY: 10. Aside- Forms - challenge
+    LESSON / ACTIVITY: 11. Aside- Validation Attributes
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 12. Submit the form
+    LESSON / ACTIVITY: 14. preventDefault Challenge
+    LESSON / ACTIVITY: 16. Add modal message
+    LESSON / ACTIVITY: 17. Add modal messages 2
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 18. Add modal messages 3
+    LESSON / ACTIVITY: 20. Form Data 1
+    LESSON / ACTIVITY: 21. Aside- FormDate methods
+    LESSON / ACTIVITY: 22. Form Data 2
+    LESSON / ACTIVITY: 23. Aside- Disabling elements
+    LESSON / ACTIVITY: 24. Disable the close button
+    LESSON / ACTIVITY: 25. There is no choice 1
+    LESSON / ACTIVITY: 27. Aside- Classlist Toggle Challenge
+    LESSON / ACTIVITY: 28. There is no choice 2
+  SECTION / UNIT: 02. Build a Meme App
+    LESSON / ACTIVITY: 03. Aside-for of
+    LESSON / ACTIVITY: 04. Use a for of
+    LESSON / ACTIVITY: 05. Nest the for of
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 06. Render out the emotions 1
+    LESSON / ACTIVITY: 07. Render out emotions 2
+    LESSON / ACTIVITY: 09. Import the data
+    LESSON / ACTIVITY: 10. Aside- Radio Imputs
+    LESSON / ACTIVITY: 11. Render the radios inputs
+    LESSON / ACTIVITY: 12. Aside- .includes()
+    LESSON / ACTIVITY: 13. remove duplicates
+    LESSON / ACTIVITY: 15. Get the id of the clicked option
+    LESSON / ACTIVITY: 17. Aside- classist add_remove
+    LESSON / ACTIVITY: 18. Add colour to the selected emotion
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 19. Aside- getElementsByClassName
+    LESSON / ACTIVITY: 20. Remove the highlight class
+    LESSON / ACTIVITY: 21. Aside- querySelector and why it_s useful
+    LESSON / ACTIVITY: 22. Connect the button
+    LESSON / ACTIVITY: 23. Has an emotion been chosen_
+    LESSON / ACTIVITY: 24. Aside- checkbox
+    LESSON / ACTIVITY: 25. isGif
+    LESSON / ACTIVITY: 26. Aside- filter()
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 27. Aside - filter() 2
+    LESSON / ACTIVITY: 28. Find matches with .filter()
+    LESSON / ACTIVITY: 29. Animated GIFs Only
+    LESSON / ACTIVITY: 31. If there_s only one cat..._
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 32. If there_s more than one cat..._
+    LESSON / ACTIVITY: 33. renderCat()
+    LESSON / ACTIVITY: 34. Close the modal
+  SECTION / UNIT: 03. Build a X Clone
+    LESSON / ACTIVITY: 02. Import the data
+    LESSON / ACTIVITY: 04. Aside- TextArea
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 06. Tweet Boilerplate Challenge
+    LESSON / ACTIVITY: 07. Aside- forEach()
+    LESSON / ACTIVITY: 08. Use forEach to build the html
+    LESSON / ACTIVITY: 09. Render the tweets to the feed
+    LESSON / ACTIVITY: 10. Aside- CDN Font Awesome
+    LESSON / ACTIVITY: 11. Add some awesome icons
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 14. Aside- Data Attr JS and Challenge
+    LESSON / ACTIVITY: 16. Like a tweet part 2- data attributes
+    LESSON / ACTIVITY: 17. Like a tweet part 3- eventListener
+    LESSON / ACTIVITY: 18. Like a tweet part 4- handleLikeClick()
+    LESSON / ACTIVITY: 19. Like a tweet part 5- find the tweet object
+    LESSON / ACTIVITY: 22. Unlike a tweet
+    LESSON / ACTIVITY: 23. Flip a boolean
+    LESSON / ACTIVITY: 24. Retweet a tweet
+    LESSON / ACTIVITY: 25. Aside- Conditionally render CSS class
+    LESSON / ACTIVITY: 26. Color the icons
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 27. Replies 1- get uuids of tweets with replies
+    LESSON / ACTIVITY: 28. Replies 2- HTML string for replies and to add to parent div
+    LESSON / ACTIVITY: 29. Replies 3- toggle hidden
+    LESSON / ACTIVITY: 30. Refactor the tweet btn
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 32. Build the new Tweet object
+    LESSON / ACTIVITY: 33. Render a new tweet
+    LESSON / ACTIVITY: 34. UX fixes
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+  SECTION / UNIT: 04. Mini Projects
+    LESSON / ACTIVITY: 03. Object Destructuring Challenge
+    LESSON / ACTIVITY: 05. The .map() Method Challenge
+    LESSON / ACTIVITY: 07. The .join() Method Challenge
+    LESSON / ACTIVITY: 08. .map() vs .forEach()
+    LESSON / ACTIVITY: 10. The dangers of innerHTML
+    LESSON / ACTIVITY: 12. Beyond Function Declarations 2- Function Expression Challenge
+    LESSON / ACTIVITY: 14. Aside- Arrow functions challenge
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 15. Aside- inline arrow function challenge
+    LESSON / ACTIVITY: 16. Import Export (named)
+    LESSON / ACTIVITY: 19. Aside .reduce() challenge
+    LESSON / ACTIVITY: 20. The .reduce() Method with Objects
+    LESSON / ACTIVITY: 21. The .reduce() Method with Objects Challenge
+    LESSON / ACTIVITY: 23. Super Challenge Set-up
+    LESSON / ACTIVITY: 27. Ternary Operator Challenge
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 28. Twimba Ternary Refactor
+    LESSON / ACTIVITY: 30. The Rest Parameter Challenge
+    LESSON / ACTIVITY: 32. Spread Syntax (...) Challenge
+    LESSON / ACTIVITY: 34. Short-circuiting with OR (III) Challenge
+    LESSON / ACTIVITY: 36. Short-circuiting with AND (&&) Challenge
+    LESSON / ACTIVITY: 37. Switch Statements (new)
+    LESSON / ACTIVITY: 38. Constructors- Date()
+    LESSON / ACTIVITY: 42. Constructor Function Challenge
+    LESSON / ACTIVITY: 44. Constructor Functions to Classes Challenge
+    LESSON / ACTIVITY: 45. Debugging- Errors
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+
+========================================================================
+MODULE 08. Responsive Design
+========================================================================
+Learning focus: Responsive layouts, media queries, flexbox/grid techniques, and product-page implementation.
+  SECTION / UNIT: 01. Responsive Layouts
+    LESSON / ACTIVITY: 03. Aside- Relative units and percentages
+    LESSON / ACTIVITY: 04. Create flexible containers with percentage units
+    LESSON / ACTIVITY: 05. Controlling the width of images
+    LESSON / ACTIVITY: 06. Set width constraints with max-width
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 07. Aside- The em unit
+    LESSON / ACTIVITY: 08. Set font sizes with em
+    LESSON / ACTIVITY: 09. Aside- Margin and padding with em
+    LESSON / ACTIVITY: 10. Set margin and padding with em
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 13. Change font sizes to rem
+    LESSON / ACTIVITY: 14. Text line height
+    LESSON / ACTIVITY: 16. Aside- Media queries
+    LESSON / ACTIVITY: 17. Add media queries to your site
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 21. Add a new breakpoint
+    LESSON / ACTIVITY: 22. Adapt the buttons for smaller screens
+    LESSON / ACTIVITY: 23. Adjust font size for smaller screens
+    LESSON / ACTIVITY: 24. Create a mobile-first navigation
+    LESSON / ACTIVITY: 25. Challenge- Narrow screens
+    LESSON / ACTIVITY: 26. Challenge- Wider screens
+    LESSON / ACTIVITY: 28. The viewport meta tag
+    LESSON / ACTIVITY: 29. Aside- Create a flexbox image grid
+    LESSON / ACTIVITY: 30. Wrap the featured items with flexbox
+  SECTION / UNIT: 02. Build a Product Page
+    LESSON / ACTIVITY: 02. Style the intro container
+    LESSON / ACTIVITY: 03. Style main content
+    LESSON / ACTIVITY: 04. Style the text
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 06. Uppercase text
+    LESSON / ACTIVITY: 07. Add a breakpoint for wider screens
+    LESSON / ACTIVITY: 09. Viewport sized intro container
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 10. Adjust content for wider screens
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 11. Apply a full background image
+    LESSON / ACTIVITY: 12. Style the form inputs
+    LESSON / ACTIVITY: 13. Style the focus state
+    LESSON / ACTIVITY: 14. Style the submit button
+    LESSON / ACTIVITY: 16. Aside- Reordering flex items
+    LESSON / ACTIVITY: 17. Adjust visual order of the intro text
+    LESSON / ACTIVITY: 20. Apply box-sizing to the page
+  SECTION / UNIT: 03. CSS Grid
+    LESSON / ACTIVITY: 05. The Mobile Layout
+    LESSON / ACTIVITY: 07. Aside- Span
+    LESSON / ACTIVITY: 08. Tablet view with span
+    LESSON / ACTIVITY: 10. Aside- grid lines
+    LESSON / ACTIVITY: 11. Laptop view with grid lines
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 12. Aside- grid template areas and Dev Tools
+    LESSON / ACTIVITY: 13. Convert to grid template areas
+    LESSON / ACTIVITY: 16. Use minmax
+    LESSON / ACTIVITY: 17. The header and footer
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+
+========================================================================
+MODULE 09. APIs and Async JavaScript
+========================================================================
+Learning focus: HTTP, REST, browser APIs, asynchronous JavaScript, and an API-based capstone.
+  SECTION / UNIT: 01. Intro to APIs
+    LESSON / ACTIVITY: 01. What is an API_
+    LESSON / ACTIVITY: 02. Clients & Servers
+    LESSON / ACTIVITY: 03. Requests & Responses
+    LESSON / ACTIVITY: 06. First fetch
+    LESSON / ACTIVITY: 08. Dog API Fetch and DOM Practice
+    LESSON / ACTIVITY: 09. Fetch idea from Bored API
+    LESSON / ACTIVITY: 11. BoredBot - HTML
+    LESSON / ACTIVITY: 12. BoredBot - CSS
+    LESSON / ACTIVITY: 13. BoredBot - JavaScript
+    LESSON / ACTIVITY: 14. BoredBot - Extra Styling
+    LESSON / ACTIVITY: 15. BoredBot - Improve A11y
+  SECTION / UNIT: 02. URLs and REST
+    LESSON / ACTIVITY: 02. HTTP Requests
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 03. Requests - URLs and Endpoints
+    LESSON / ACTIVITY: 04. Requests - Methods
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 05. BlogSpace - GET first 5 blog posts
+    LESSON / ACTIVITY: 06. BlogSpace - Display blogs on page
+    LESSON / ACTIVITY: 07. BlogSpace - Add styling
+    LESSON / ACTIVITY: 08. BlogSpace - New post form
+    LESSON / ACTIVITY: 09. BlogSpace - Add style to form
+    LESSON / ACTIVITY: 10. BlogSpace - Form submit event listener
+    LESSON / ACTIVITY: 11. Requests - Body
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 12. Requests - Headers
+    LESSON / ACTIVITY: 13. BlogSpace - Send new post to server
+    LESSON / ACTIVITY: 14. BlogSpace - Add new post to list of posts
+    LESSON / ACTIVITY: 15. BlogSpace - Posts Refactor
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 16. BlogSpace - Reset form
+    LESSON / ACTIVITY: 17. REST
+    LESSON / ACTIVITY: 18. REST API Design
+    LESSON / ACTIVITY: 19. Nested Resources
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 20. URL - Parameteres - JSON Placeholder API
+    LESSON / ACTIVITY: 21. Query Strings
+    LESSON / ACTIVITY: 22. Query String Practice - OpenWeatherMap API
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+  SECTION / UNIT: 04. Async JavaScript
+    LESSON / ACTIVITY: 02. Callbacks Setup Challenge
+    LESSON / ACTIVITY: 04. Separate event listener callback
+    LESSON / ACTIVITY: 05. Callbacks - revisting setTimeout
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 06. Callbacks - revisiting array.filter
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 07. Callbacks - make own filerArray function
+    LESSON / ACTIVITY: 08. Callbacks - put our custom filterArray function to use
+    LESSON / ACTIVITY: 09. Thought experiment- what if _fetch_ used callbacks_
+    LESSON / ACTIVITY: 10. Promises
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 11. Context- method chaining
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 12. Promises - .then() chaining
+    LESSON / ACTIVITY: 13. Promises - .then()
+    LESSON / ACTIVITY: 14. Promises - passing basic values in the chain
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 15. War - save deckid for later use
+    LESSON / ACTIVITY: 16. War - draw 2 cards from our deck
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 17. War - Display our card images
+    LESSON / ACTIVITY: 18. War - Styling part 1
+    LESSON / ACTIVITY: 19. War - Styling part 2
+    LESSON / ACTIVITY: 20. War - Refactor card image placement
+    LESSON / ACTIVITY: 21. War - Determine the winning card part 1
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 22. War - Determine winning card part 2
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 23. War - display remaining cards when drawing
+    LESSON / ACTIVITY: 24. War - Display remaining cards on new deck
+    LESSON / ACTIVITY: 25. War - Disable the draw button when we get to 0 cards remaining
+    LESSON / ACTIVITY: 26. War - Keep score
+    LESSON / ACTIVITY: 27. War - Display the final winner
+    LESSON / ACTIVITY: 28. A quick look at Async_Await
+  SECTION / UNIT: 06. Capstone Project
+    LESSON / ACTIVITY: 03. Get photo from Unsplash
+    LESSON / ACTIVITY: 04. Add Author Info
+    LESSON / ACTIVITY: 06. Set up flexbox
+    LESSON / ACTIVITY: 07. Promises review
+    LESSON / ACTIVITY: 09. Promise rejection practice
+    LESSON / ACTIVITY: 10. Crypto - Add cryptocurrency data
+    LESSON / ACTIVITY: 11. Crypto - Get Dogecoin data
+    LESSON / ACTIVITY: 13. Crypto - Display name and icon
+    LESSON / ACTIVITY: 14. Crypto - get prices
+    LESSON / ACTIVITY: 15. Time - Add current time with JavaScript
+    LESSON / ACTIVITY: 16. Time - Display time on page
+    LESSON / ACTIVITY: 17. Weather - start
+    LESSON / ACTIVITY: 18. Thought experiment - getCurrentLocation as a promise-based API_
+    LESSON / ACTIVITY: 19. Weather - Get user_s current weather
+    LESSON / ACTIVITY: 20. Weather - Add icon
+    LESSON / ACTIVITY: 21. Weather - Add temp and city
+    LESSON / ACTIVITY: 22. Weather - CSS
+    LESSON / ACTIVITY: 23. Chrome extension time
+    LESSON / ACTIVITY: 25. Update - using await
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 26. Update - try...catch
+
+========================================================================
+MODULE 10. AI Engineering
+========================================================================
+Learning focus: AI engineering foundations, retrieval-augmented generation, vector databases, and agent concepts.
+  SECTION / UNIT: 01. AI Engineering Fundamentals
+    LESSON / ACTIVITY: 08. An API call- The messages array
+    LESSON / ACTIVITY: 10. Prompt Engineering and a challenge
+    LESSON / ACTIVITY: 11. Adding AI to the App
+    LESSON / ACTIVITY: 14. Temperature
+    LESSON / ACTIVITY: 16. Adding Examples
+  SECTION / UNIT: 03. RAG and Vector Databases
+    LESSON / ACTIVITY: 05. Challenge- Pair text with embedding
+    LESSON / ACTIVITY: 13. Challenge- Split text, get vectors, insert into Supabase
+    LESSON / ACTIVITY: 15. Query database and manage multiple matches
+  SECTION / UNIT: 05. AI Agents
+    LESSON / ACTIVITY: 11. ReAct Agent - part 4 - code setup
+    LESSON / ACTIVITY: 13. ReAct Agent - part 6 - Parsing the Action
+    LESSON / ACTIVITY: 14. ReAct Agent - part 7 - Calling the function
+    LESSON / ACTIVITY: 21. OpenAI Functions Agent - Part 5 - Setup Challenge
+    LESSON / ACTIVITY: 22. OpenAI Functions Agent - Part 6 - Tool Calls
+    LESSON / ACTIVITY: 26. Adding UI to agent - proof of concept
+
+========================================================================
+MODULE 11. Node.js
+========================================================================
+Learning focus: Server-side JavaScript with Node, API construction, and a full-stack Node application.
+  SECTION / UNIT: 01. Build a Node API
+    LESSON / ACTIVITY: 02. The package.json file
+    LESSON / ACTIVITY: 04. Recreate the server
+    LESSON / ACTIVITY: 07. Routing and the req object
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 09. Serve stringified JSON
+    LESSON / ACTIVITY: 10. Adding Content-Type
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 11. Route Not Found
+    LESSON / ACTIVITY: 12. Add Path Parameters
+    LESSON / ACTIVITY: 13. Modularise the Code 1
+    LESSON / ACTIVITY: 14. Modularise the Code 2
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 16. Get the Query Parameters
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 17. Filter by Query Parameters
+  SECTION / UNIT: 02. Build a Fullstack Node App
+    LESSON / ACTIVITY: 02. Setting up the project
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 06. Get Path to Resource
+    LESSON / ACTIVITY: 08. Serve index.html
+    LESSON / ACTIVITY: 11. serve the frontend
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 12. Getting the JSON Data
+    LESSON / ACTIVITY: 13. Wire up the API
+    LESSON / ACTIVITY: 14. Explainer- Adding POST
+    LESSON / ACTIVITY: 16. parseJSONBody
+    LESSON / ACTIVITY: 17. Handling POST Part 1
+    LESSON / ACTIVITY: 18. Handling POST part 2
+    LESSON / ACTIVITY: 20. sanitizeInput
+    LESSON / ACTIVITY: 22. Add an Event Emitter
+    LESSON / ACTIVITY: 24. Server-Sent Events Challenge
+
+========================================================================
+MODULE 12. Databases
+========================================================================
+Learning focus: Relational database concepts, SQL queries, table design, and joins.
+  SECTION / UNIT: 02. Writing SQL Queries
+    LESSON / ACTIVITY: 04. Selecting columns
+    LESSON / ACTIVITY: 05. WHERE clause
+    LESSON / ACTIVITY: 06. Numerical filtering
+    LESSON / ACTIVITY: 07. Not equal
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 08. NOT and LIKE
+    LESSON / ACTIVITY: 09. AND
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 10. BETWEEN
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 11. OR
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 12. IN operator
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 13. Challenges 1
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 14. ORDER BY
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 15. LIMIT
+    LESSON / ACTIVITY: 16. COUNT and SUM
+    LESSON / ACTIVITY: 17. MAX, MIN, AVG
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 18. GROUP BY
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 19. HAVING
+    LESSON / ACTIVITY: 20. Challenges 2
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 21. INSERT INTO
+    LESSON / ACTIVITY: 22. UPDATE
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 23. DELETE
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+  SECTION / UNIT: 03. Creating and Joining Tables
+    LESSON / ACTIVITY: 03. Creating tables
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 04. Populating tables
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 05. Alter table
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 07. Left and Right Join
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 08. Full join, inner join and drop
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 09. Aggregates
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 10. Joining multiple tables
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+
+========================================================================
+MODULE 13. Express.js
+========================================================================
+Learning focus: Express APIs, full-stack integration, authentication, authorization, and backend application practices.
+  SECTION / UNIT: 01. Build an Express API
+    LESSON / ACTIVITY: 01. Setting Things Up
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 02. A Basic Server
+    LESSON / ACTIVITY: 04. Serving Data
+    LESSON / ACTIVITY: 06. Filtering by Query Params
+    LESSON / ACTIVITY: 07. Aside- Path Parameters
+    LESSON / ACTIVITY: 08. Add Path Parameters 1
+    LESSON / ACTIVITY: 09. Path Parameters 2
+    LESSON / ACTIVITY: 11. Modularise The Code
+    LESSON / ACTIVITY: 12. Route Not Found
+  SECTION / UNIT: 02. Build a Fullstack Express App
+    LESSON / ACTIVITY: 03. Serve the Frontend Files
+    LESSON / ACTIVITY: 04. Setting up the Routes
+    LESSON / ACTIVITY: 06. Setting up the Database
+    LESSON / ACTIVITY: 09. seedTable.js
+    LESSON / ACTIVITY: 11. Populate the Dropdown
+    LESSON / ACTIVITY: 12. Getting All Products
+    LESSON / ACTIVITY: 13. Wire Up the Dropdown
+    LESSON / ACTIVITY: 14. Add Search Functionality
+  SECTION / UNIT: 03. Authentication
+    LESSON / ACTIVITY: 02. Create a users table
+    LESSON / ACTIVITY: 03. The _register Route
+    LESSON / ACTIVITY: 05. Validate the User
+    LESSON / ACTIVITY: 06. Add user to DB
+    LESSON / ACTIVITY: 09. Hash the password
+    LESSON / ACTIVITY: 11. Add express-session
+    LESSON / ACTIVITY: 12. Display a User_s Name
+    LESSON / ACTIVITY: 13. Login
+    LESSON / ACTIVITY: 14. Add Logout Functionality
+    LESSON / ACTIVITY: 16. Adding to cart_table
+    LESSON / ACTIVITY: 17. The Cart Count
+    LESSON / ACTIVITY: 18. Cart Page Challenge 1
+    LESSON / ACTIVITY: 19. Cart Page Challenge 2
+    LESSON / ACTIVITY: 20. Cart Page Challenge 3
+    LESSON / ACTIVITY: 22. Projecting Cart Routes
+
+========================================================================
+MODULE 14. User Interface Design
+========================================================================
+Learning focus: Interface-design principles, layout composition, and dashboard design refactoring.
+  SECTION / UNIT: 01. UI Design Fundamentals
+    LESSON / ACTIVITY: 05. Design Challenge 1
+    LESSON / ACTIVITY: 08. Design Challenge 2
+    LESSON / ACTIVITY: 11. Design Challenge 3
+    LESSON / ACTIVITY: 13. Design Challenge 4
+    LESSON / ACTIVITY: 14. The Final Challenge
+  SECTION / UNIT: 02. Design a Simple Layout
+    LESSON / ACTIVITY: 04. Challenge 1
+    LESSON / ACTIVITY: 07. Final Chapter Lesson
+  SECTION / UNIT: 03. Refactor a Metrics Dashboard
+    LESSON / ACTIVITY: 02. Fixing the Color & Contrast
+    LESSON / ACTIVITY: 03. Fixing the Type & Visual Hierarchy
+    LESSON / ACTIVITY: 04. Fixing White Space
+    LESSON / ACTIVITY: 05. Initial Media Queries
+    LESSON / ACTIVITY: 06. Tablet Media Queries
+    LESSON / ACTIVITY: 07. Desktop Media Query
+
+========================================================================
+MODULE 15. React.js Fundamentals
+========================================================================
+Learning focus: React components, data-driven UIs, state, effects, and capstone games.
+  SECTION / UNIT: 01. Static Pages
+    LESSON / ACTIVITY: 01. First React Code
+    LESSON / ACTIVITY: 02. First React Challenge
+    LESSON / ACTIVITY: 07. Why React_ It_s Composable
+    LESSON / ACTIVITY: 08. Why React_ It_s Declarative
+    LESSON / ACTIVITY: 09. Random housekeeping
+    LESSON / ACTIVITY: 10. ReactFacts Project - Markup
+    LESSON / ACTIVITY: 11. Pop quiz
+    LESSON / ACTIVITY: 12. Custom Components
+    LESSON / ACTIVITY: 13. Custom Components Challenge Part 2
+    LESSON / ACTIVITY: 14. Custom Components Quiz
+    LESSON / ACTIVITY: 16. Custom Components - Parent_Child Components
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 17. Styling with Classes
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 18. Organizing Components
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 19. Make Mental Outline of Project
+    LESSON / ACTIVITY: 20. Initial Project Setup
+    LESSON / ACTIVITY: 21. ReactFacts Project - Navbar & Styling
+    LESSON / ACTIVITY: 22. ReactFacts Project - Main Content Section
+    LESSON / ACTIVITY: 24. ReactFacts Project - Add Background Image
+  SECTION / UNIT: 03. Data-Driven React
+    LESSON / ACTIVITY: 02. Travel Journal - Header
+    LESSON / ACTIVITY: 03. Travel Journal - Entry Component
+    LESSON / ACTIVITY: 05. Props Part 1- Understanding the Concept
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 07. Aside- JS inside JSX
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 08. Props part 3- Create a contract component
+    LESSON / ACTIVITY: 09. Props part 4- Passing data into a component
+    LESSON / ACTIVITY: 10. Props part 5- Receiving props in a component
+    LESSON / ACTIVITY: 11. Prop quiz (Get it_)
+    LESSON / ACTIVITY: 12. Destructuring props
+    LESSON / ACTIVITY: 13. Props practice
+    LESSON / ACTIVITY: 14. Non-string props
+    LESSON / ACTIVITY: 16. Pass props to Entry component
+    LESSON / ACTIVITY: 17. Review - array .map()
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 18. React can render arrays
+    LESSON / ACTIVITY: 19. Mapping components
+    LESSON / ACTIVITY: 20. Map quiz
+    LESSON / ACTIVITY: 21. Travel Journal- Map Entry components
+    LESSON / ACTIVITY: 23. Travel Journal- Pass object as props
+  SECTION / UNIT: 04. React State
+    LESSON / ACTIVITY: 02. Chef Claude Header
+    LESSON / ACTIVITY: 05. Event Listeners
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 06. Chef Claude- Map ingredients list
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 09. useState
+    LESSON / ACTIVITY: 11. Changing state
+    LESSON / ACTIVITY: 12. State practice
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+      PRACTICE: Exercise 4
+    LESSON / ACTIVITY: 13. Updating state with a callback function
+    LESSON / ACTIVITY: 14. Changing state quiz
+    LESSON / ACTIVITY: 15. Ternary practice
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 16. Toggling state
+    LESSON / ACTIVITY: 17. Complex state- Arrays
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 18. Chef Claude- Refactor array state
+    LESSON / ACTIVITY: 19. Complex state- Objects
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 20. Comeplex state- updating state objects
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 22. Form basics
+    LESSON / ACTIVITY: 24. Form action
+    LESSON / ACTIVITY: 25. Chef Claude- Refactor form submission
+    LESSON / ACTIVITY: 27. Forms- radio
+    LESSON / ACTIVITY: 30. Forms- Object.fromEntries
+    LESSON / ACTIVITY: 32. Conditional rendering- &&
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 34. Conditional rendering practice- &&
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 36. Conditional rendering practice
+    LESSON / ACTIVITY: 37. Conditional rendering quiz
+    LESSON / ACTIVITY: 38. Chef Claude- conditional rendering challenge 1
+    LESSON / ACTIVITY: 39. Chef Claude- conditional rendering challenge 2
+    LESSON / ACTIVITY: 40. Chef Claude- Get recipe placeholder challenge
+    LESSON / ACTIVITY: 41. Passing state as props
+    LESSON / ACTIVITY: 42. Setting state from child components
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 43. Passing data around React
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 44. Sound pads challenge, part 1
+    LESSON / ACTIVITY: 45. Dynamic styles
+    LESSON / ACTIVITY: 46. Sound pads challenge, part 2
+    LESSON / ACTIVITY: 47. Sound pads challenge, part 3
+    LESSON / ACTIVITY: 48. Sound pads challenge part 4.1 - local state
+    LESSON / ACTIVITY: 49. Sound pads challenge part 4.2 - shared state
+    LESSON / ACTIVITY: 50. Sound pads challenge part 4.3 - updating the item in array
+    LESSON / ACTIVITY: 51. Chef Claude challenge- refactor to separate components
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 55. Challenge quiz- prep to get recipe from the AI chef
+    LESSON / ACTIVITY: 56. Challenge- Get recipe from the AI chef
+    LESSON / ACTIVITY: 57. Format recipe response
+  SECTION / UNIT: 05. Side Effects
+    LESSON / ACTIVITY: 02. Meme Generator Starting Point
+    LESSON / ACTIVITY: 03. Meme Generator State
+    LESSON / ACTIVITY: 04. Meme Generator - Controlled Components - part 1
+    LESSON / ACTIVITY: 06. Meme Generator - Planing data fetch
+    LESSON / ACTIVITY: 08. Fetching data in React
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 11. useEffect() Dependencies array
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 13. useEffect quiz
+    LESSON / ACTIVITY: 14. useEffect practice
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 16. State and Effect practices
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 18. Meme Generator - Get random meme
+    LESSON / ACTIVITY: 20. useEffect practice- scrolllntoView()
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+  SECTION / UNIT: 06. Capstone Project #1 - Tenzies
+    LESSON / ACTIVITY: 02. Tenzies- Setup
+    LESSON / ACTIVITY: 03. Tenzies- Die component
+    LESSON / ACTIVITY: 04. Tenzies- Generate 10 random numbers
+    LESSON / ACTIVITY: 05. Tenzies- Map array to Die components
+    LESSON / ACTIVITY: 06. Tenzies- Roll dice button
+    LESSON / ACTIVITY: 07. Tenzies- Challenge dice to objects
+    LESSON / ACTIVITY: 08. Tenzies- Styling held dice
+    LESSON / ACTIVITY: 09. Tenzies- Hold dice - part 1
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 10. Tenzies- Hold dice - part 2
+    LESSON / ACTIVITY: 11. Tenzies- Hold dice - part 3
+    LESSON / ACTIVITY: 12. Tenzies- End game - part 1
+    LESSON / ACTIVITY: 13. Tenzies- End game part 2
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 14. Tenzies- End game - part 3
+    LESSON / ACTIVITY: 16. Tenzies- New game
+    LESSON / ACTIVITY: 18. Tenzies- Accessibility Improvements - part 2
+  SECTION / UNIT: 07. Capstone Project #2 - Assembly- Endgame
+    LESSON / ACTIVITY: 02. Assembly Endgame - Project Planning
+    LESSON / ACTIVITY: 03. Assembly Endgame - Header Section
+    LESSON / ACTIVITY: 04. Assembly Endgame - Status Section
+    LESSON / ACTIVITY: 05. Assembly Endgame - Languages List
+    LESSON / ACTIVITY: 06. Assembly Endgame - Word Display
+    LESSON / ACTIVITY: 07. Assembly Endgame - Keyboard
+    LESSON / ACTIVITY: 08. Assembly Endgame - Save the guessed letters
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 09. Assembly Endgame - Keyboard letter styles for guesses
+    LESSON / ACTIVITY: 10. Assembly Endgame - Only display correctly guessed letters in word
+    LESSON / ACTIVITY: 11. Assembly Endgame - Wrong guess count
+    LESSON / ACTIVITY: 12. Assembly Endgame - Lost languages
+    LESSON / ACTIVITY: 13. Assembly Endgame - isGameOver
+    LESSON / ACTIVITY: 14. Assembly Endgame - Display won_lost status
+    LESSON / ACTIVITY: 18. Assembly Endgame - Farewell messages
+    LESSON / ACTIVITY: 19. Assembly Endgame - Disable keyboard when the game is over
+    LESSON / ACTIVITY: 22. Assembly Endgame - Choose random word
+    LESSON / ACTIVITY: 23. Assembly Endgame - New game button resets the game
+    LESSON / ACTIVITY: 24. Assembly Endgame - missed letters when lost
+    LESSON / ACTIVITY: 25. Assembly Endgame
+
+========================================================================
+MODULE 16. Testing
+========================================================================
+Learning focus: Component/application testing, user interactions, mocking, accessibility testing, and test-driven development.
+  SECTION / UNIT: 03. Write your first test
+  SECTION / UNIT: 04. Practice, practice, and practice
+  SECTION / UNIT: 05. Test user interactions
+  SECTION / UNIT: 07. Mock external services- Test
+  SECTION / UNIT: 09. Accessibility testing with a side of TDD
+
+========================================================================
+MODULE 17. Advanced React.js
+========================================================================
+Learning focus: Reusable component patterns, performance, routing, persistence, and authentication.
+  SECTION / UNIT: 01. Reusability
+    LESSON / ACTIVITY: 02. Button - props review challenge
+    LESSON / ACTIVITY: 05. Challenge - Button w_ Children
+    LESSON / ACTIVITY: 06. Button - More Complex React Children
+    LESSON / ACTIVITY: 07. Challenge - add onClick event listener
+    LESSON / ACTIVITY: 10. Button - size prop
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 11. Button - fix className issue
+    LESSON / ACTIVITY: 12. Challenge - Button w_ Variants
+    LESSON / ACTIVITY: 13. Mega Challenge - Overloaded Avatar Component
+    LESSON / ACTIVITY: 17. Compound Components in React - Part 1
+    LESSON / ACTIVITY: 18. Compound Components Quiz
+    LESSON / ACTIVITY: 19. Compound Components in React - Part 2
+    LESSON / ACTIVITY: 20. Compound Components in React - Part 3
+    LESSON / ACTIVITY: 23. The React.Children API
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 24. React.Children shortcomings
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 26. createContext() & Context Provider
+    LESSON / ACTIVITY: 27. useContext()
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 28. Add context to the Menu component
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 29. State + Context
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+      PRACTICE: Exercise 4
+    LESSON / ACTIVITY: 30. Theme switcher final touches
+    LESSON / ACTIVITY: 31. Menu component final touches
+    LESSON / ACTIVITY: 35. Toggle - setup
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 37. Toggle Context
+    LESSON / ACTIVITY: 38. Toggle.Button
+    LESSON / ACTIVITY: 39. Toggle.On & Toggle.Off
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 40. Remove Star component
+    LESSON / ACTIVITY: 41. Use Toggle with Menu component
+    LESSON / ACTIVITY: 42. Composing new components with Toggle
+    LESSON / ACTIVITY: 43. onToggle event listener
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 44. Menu onClose event
+    LESSON / ACTIVITY: 47. Fix onToggle bug using refs
+    LESSON / ACTIVITY: 50. Render Props Part 2
+    LESSON / ACTIVITY: 51. Renders Props Part 3
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 54. Toggle.Display
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 56. Custom Hooks - useEffectOnUpdate
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+      PRACTICE: Exercise 4
+      PRACTICE: Exercise 5
+    LESSON / ACTIVITY: 57. Custom Hooks - useToggle
+    LESSON / ACTIVITY: 58. Custom Hooks - useToggle part 2
+    LESSON / ACTIVITY: 59. Custom Hooks - useToggle part 3
+    LESSON / ACTIVITY: 60. Custom Hooks - useToggle part 4
+    LESSON / ACTIVITY: 61. Custom Hooks - useToggle part 5
+    LESSON / ACTIVITY: 62. Custom Hooks - useToggle part 6
+    LESSON / ACTIVITY: 63. Custom Hooks - useToggle part 7
+    LESSON / ACTIVITY: 64. Custom Hooks - useToggle part 8
+  SECTION / UNIT: 02. Performance
+    LESSON / ACTIVITY: 04. Rendering Phases Quiz
+    LESSON / ACTIVITY: 06. StrictMode - double renders components
+    LESSON / ACTIVITY: 07. StrictMode - rerunning side effects
+    LESSON / ACTIVITY: 09. Code Splitting, lazy, Suspense - Part 2
+    LESSON / ACTIVITY: 11. useMemo() practice
+    LESSON / ACTIVITY: 12. React.memo() - reducing rerenders
+    LESSON / ACTIVITY: 13. React.memo() practice
+    LESSON / ACTIVITY: 15. useMemo(), React.memo(), and referential equality
+    LESSON / ACTIVITY: 16. useMemo() practice
+    LESSON / ACTIVITY: 17. useCallback()
+    LESSON / ACTIVITY: 18. useCallback() practice
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+  SECTION / UNIT: 04. Routing
+    LESSON / ACTIVITY: 05. BrowserRouter & Routes challenge
+    LESSON / ACTIVITY: 06. Route, path, & element
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 09. VanLife project bootstrapping
+    LESSON / ACTIVITY: 11. Challenge- Vans Page - Part 1
+    LESSON / ACTIVITY: 12. Challenge- Vans Page - Part 2
+    LESSON / ACTIVITY: 14. Route Params - part 2
+    LESSON / ACTIVITY: 16. Route Params part 3.1 - useParams() & challenge
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 17. Route Params part 3.2 - useParams() challenge
+    LESSON / ACTIVITY: 18. Route Params Quiz
+    LESSON / ACTIVITY: 20. Fixing the Navbar with a Layout Route
+    LESSON / ACTIVITY: 21. Fixing the Navbar with a Layout Route part 2
+    LESSON / ACTIVITY: 22. Bootstrap the Host pages
+    LESSON / ACTIVITY: 23. Nesting the _host routes
+    LESSON / ACTIVITY: 24. Creating the Host Layout
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 27. To nest or not to nest_
+    LESSON / ACTIVITY: 28. Nested Routes Quiz
+    LESSON / ACTIVITY: 29. Add Footer
+    LESSON / ACTIVITY: 30. NavLink
+    LESSON / ACTIVITY: 31. Active Link Styling with NavLink
+    LESSON / ACTIVITY: 32. Active Link Styling with NavLink - part 2
+    LESSON / ACTIVITY: 33. Adding Host Vans Routes
+    LESSON / ACTIVITY: 34. Optional Side Quest - Building out the Host Vans List and Detail Pages
+    LESSON / ACTIVITY: 35. Building out the Host Van Detail page
+    LESSON / ACTIVITY: 37. Back to all vans
+    LESSON / ACTIVITY: 38. Add _host_vans_id Nested Routes
+    LESSON / ACTIVITY: 39. Add the Final Navbar
+    LESSON / ACTIVITY: 40. Outlet Context
+    LESSON / ACTIVITY: 43. Challenge- Set up search params in VanLife
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 44. Filter the array w_ the search param
+    LESSON / ACTIVITY: 45. Challenge- Filter the vans in VanLife
+    LESSON / ACTIVITY: 46. Using Links to add seach params
+    LESSON / ACTIVITY: 47. Challenge- Filter the vans with Links
+    LESSON / ACTIVITY: 49. Challenge- Filter the vans with a setter function
+    LESSON / ACTIVITY: 53. Challenge- Conditional rendering practice
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 54. Fix remaining absolute paths
+    LESSON / ACTIVITY: 57. useLocation
+    LESSON / ACTIVITY: 58. Challenge- conditionally render the back button text
+    LESSON / ACTIVITY: 59. 404 Page
+  SECTION / UNIT: 05. Persistence
+    LESSON / ACTIVITY: 01. Supabase project setup
+    LESSON / ACTIVITY: 02. Query the database using supabase-js
+    LESSON / ACTIVITY: 03. Query with aggregate function
+    LESSON / ACTIVITY: 04. Storing the data in state
+    LESSON / ACTIVITY: 06. Realtime subscription
+    LESSON / ACTIVITY: 08. Insert new data
+  SECTION / UNIT: 06. Authentication
+    LESSON / ACTIVITY: 01. Router setup
+    LESSON / ACTIVITY: 03. Auth Session state - part 1
+    LESSON / ACTIVITY: 06. JWTs (authenticated)
+    LESSON / ACTIVITY: 08. Sign in component - part 1
+    LESSON / ACTIVITY: 11. Sign in auth function - part 2
+    LESSON / ACTIVITY: 12. Navigate & Link
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 13. Sign out
+    LESSON / ACTIVITY: 14. Navigate after sign out
+    LESSON / ACTIVITY: 17. Home redirect
+    LESSON / ACTIVITY: 18. Protected Route
+    LESSON / ACTIVITY: 19. Sign up
+    LESSON / ACTIVITY: 23. Sign up expansion
+    LESSON / ACTIVITY: 24. Trigger
+    LESSON / ACTIVITY: 27. Refactor deals table - part 3
+    LESSON / ACTIVITY: 28. Fetch all profiles - part 1
+    LESSON / ACTIVITY: 30. Update new deal form - part 1
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 31. Update new deal form - part 2
+    LESSON / ACTIVITY: 33. Update fetchMetrics - part 2
+    LESSON / ACTIVITY: 34. Account type in Header
+
+========================================================================
+MODULE 18. TypeScript
+========================================================================
+Learning focus: TypeScript language fundamentals, React typing, and a typed Tenzies project.
+  SECTION / UNIT: 01. TypeScript Fundamentals
+    LESSON / ACTIVITY: 01. Intro to Pizza app (1)
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 02. Move code to TS
+    LESSON / ACTIVITY: 04. Obligatory types basics lesson
+    LESSON / ACTIVITY: 05. Add type to orderId
+    LESSON / ACTIVITY: 06. Defining Custom Types
+    LESSON / ACTIVITY: 07. Adding a Pizza type
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 08. Nested object types (5)
+    LESSON / ACTIVITY: 10. Adding an Order type
+    LESSON / ACTIVITY: 11. Typing arrays
+    LESSON / ACTIVITY: 12. Type orderQueue
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 15. Update order status to use literal type unions
+    LESSON / ACTIVITY: 17. Type Narrowing
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 19. Void return type
+    LESSON / ACTIVITY: 21. Add return type to getPizzaDetail
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 22. Add automatic ids to menu items
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 23. Utility Types & Partial
+    LESSON / ACTIVITY: 24. Omit Utility Type
+    LESSON / ACTIVITY: 25. Fix TS warnings with Omit
+    LESSON / ACTIVITY: 26. Generics
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 27. Generic functions in the pizza restaurant
+    LESSON / ACTIVITY: 28. Explicitly type generic function calls
+  SECTION / UNIT: 02. TypeScript in React
+    LESSON / ACTIVITY: 02. TS Refresher - Basic & Custom Types
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 03. TS Refresher - Functions
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 04. TS Refresher - A new getRandomIndex() function
+    LESSON / ACTIVITY: 05. Typing useState()
+    LESSON / ACTIVITY: 06. Typing Derived Values and Arrow Functions
+    LESSON / ACTIVITY: 07. Typing App.tsx functions
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 10. JSX Element or null
+    LESSON / ACTIVITY: 11. Typing Component Props
+    LESSON / ACTIVITY: 12. Custom Component Prop Types
+    LESSON / ACTIVITY: 13. The AriaLiveStatus Component Challenge
+    LESSON / ACTIVITY: 14. Component Props and Imported Types
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 15. Element within an Element
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 16. The WordLetters Component Challenge
+    LESSON / ACTIVITY: 17. Typing Function Props
+    LESSON / ACTIVITY: 18. The Final Challenge
+  SECTION / UNIT: 03. Solo project - Typed Tenzies
+
+========================================================================
+MODULE 19. Next.js
+========================================================================
+Learning focus: Next.js application structure, routing, layouts, image optimization, server/client components, and rendering strategies.
+  SECTION / UNIT: 01. Build a Next.js App
+    LESSON / ACTIVITY: 02. Challenge- create a new Next.js app from scratch
+    LESSON / ACTIVITY: 03. Adding a new page to our site
+    LESSON / ACTIVITY: 04. File-based routing in Next.js
+    LESSON / ACTIVITY: 07. Scrimba_s _Runner_
+    LESSON / ACTIVITY: 10. Challenge - PrintForge Home Page
+    LESSON / ACTIVITY: 11. Challenge - PrintForge About Page
+    LESSON / ACTIVITY: 12. Nested Routes
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 14. Layouts part 2
+    LESSON / ACTIVITY: 15. Challenge - Add Header to PrintForge
+    LESSON / ACTIVITY: 17. Optimizing Images
+    LESSON / ACTIVITY: 19. Challenge - Add Links to Navbar
+    LESSON / ACTIVITY: 22. Challenge - Create the Models List Page
+    LESSON / ACTIVITY: 23. Dynamic Routes
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 24. Model Detail Page
+  SECTION / UNIT: 02. Rendering Strategies and More
+    LESSON / ACTIVITY: 02. Challenge- add categories page
+    LESSON / ACTIVITY: 03. Add categories Nav Bar
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 06. More about client components
+    LESSON / ACTIVITY: 07. Challenge- Style Active Link
+    LESSON / ACTIVITY: 09. Challenge- Style Categories Link
+    LESSON / ACTIVITY: 10. Challenge- Category Pages
+    LESSON / ACTIVITY: 14. Cat Facts - SSG Pt. 1
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 15. Cat Facts - Add Fetch
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 16. CatFacts- Structured Play
+    LESSON / ACTIVITY: 17. HTML Form Submissions are Navigation Events
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 20. PrintForge - Search Bar using native form
+    LESSON / ACTIVITY: 22. PrintForge - Upgrade to Next_s Form Component
+
+========================================================================
+MODULE 20. Launching Your Career
+========================================================================
+Learning focus: Technical interview preparation with JavaScript, React, frontend, workflow, and agile challenges.
+  SECTION / UNIT: 04. JavaScript Interview Challenges
+    LESSON / ACTIVITY: 01. Challenge - Panic Function
+    LESSON / ACTIVITY: 03. Challenge - Shh... Whispering Function
+    LESSON / ACTIVITY: 05. Challenge - Alternating Caps
+    LESSON / ACTIVITY: 07. Challenge - toTitleCase()
+    LESSON / ACTIVITY: 09. Challenge - Definitely Not FizzBuzz
+    LESSON / ACTIVITY: 11. Challenge - Emojify
+    LESSON / ACTIVITY: 13. Challenge- Is it an Anagram
+    LESSON / ACTIVITY: 15. Challenge - Decode an Alien Message
+    LESSON / ACTIVITY: 17. Challenge - Palindromes
+    LESSON / ACTIVITY: 19. Challenge - Save Grandpa_s Password
+    LESSON / ACTIVITY: 21. Challenge - Frequency of Letters in Your Name
+    LESSON / ACTIVITY: 23. Challenge- Chef Mario_s Recipe Book
+    LESSON / ACTIVITY: 26. Challene - Pumpkin_s Prizes
+    LESSON / ACTIVITY: 28. Challenge - Count the Scrimba Students
+    LESSON / ACTIVITY: 30. Challenge - Pizza Night_
+    LESSON / ACTIVITY: 32. Challenge - Find Free Podcasts
+    LESSON / ACTIVITY: 34. Challenge - Candy Sale
+    LESSON / ACTIVITY: 36. Challenge - Shopping Cart
+    LESSON / ACTIVITY: 38. Challenge - Total Savory Items
+    LESSON / ACTIVITY: 40. Challenge - Holiday Gift Shopping
+    LESSON / ACTIVITY: 42. Challenge - Collect Unique Genre Tags
+    LESSON / ACTIVITY: 45. Challenge - Welcome Aboard Scrimba Airlines
+    LESSON / ACTIVITY: 47. Challenge - Popularity Contest
+    LESSON / ACTIVITY: 49. Challenge - Night at the Scrimbles
+    LESSON / ACTIVITY: 51. Challenge - Save the Weekend
+    LESSON / ACTIVITY: 53. Challenge - Find Anagrams in an Array
+    LESSON / ACTIVITY: 55. Challenge - Emoji Flower Bed
+  SECTION / UNIT: 05. React Interview Challenges
+    LESSON / ACTIVITY: 01. Interview Questions- The Virtual DOM
+    LESSON / ACTIVITY: 03. JSX
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 04. Interview Questions- Props
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+      PRACTICE: Exercise 4
+    LESSON / ACTIVITY: 05. Interview Questions- State and Lifecycle
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+      PRACTICE: Exercise 4
+    LESSON / ACTIVITY: 06. Interview Questions- Effects
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 07. Refs
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+    LESSON / ACTIVITY: 08. Interview Questions- Context
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+    LESSON / ACTIVITY: 09. Miscellaneous (but important) Questions
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+      PRACTICE: Exercise 4
+      PRACTICE: Exercise 5
+      PRACTICE: Exercise 6
+  SECTION / UNIT: 06. Frontend Interview Challenges
+    LESSON / ACTIVITY: 01. Interview Question- Falsy Values
+    LESSON / ACTIVITY: 02. const vs let vs var
+    LESSON / ACTIVITY: 03. Double vs triple equal
+    LESSON / ACTIVITY: 04. Interview Question- undefined vs null
+    LESSON / ACTIVITY: 05. Interview Question- Data Types
+    LESSON / ACTIVITY: 06. Interview Question- Spread & Rest Operators
+    LESSON / ACTIVITY: 07. Interview Question- Destructuring Objects and Arrays
+    LESSON / ACTIVITY: 08. Git Fundamentals
+    LESSON / ACTIVITY: 09. Interview Question- Agile & Scrum
+    LESSON / ACTIVITY: 10. Interview Question- CSS Selectors
+    LESSON / ACTIVITY: 11. Interview Question- Responsive Design
+    LESSON / ACTIVITY: 12. Interview Question- Number Issues
+    LESSON / ACTIVITY: 13. Interview Question- Promises
+    LESSON / ACTIVITY: 14. Interview Question- Pass by value vs pass by reference
+    LESSON / ACTIVITY: 15. Interview Question- Five questions to be prepared for
+      PRACTICE: Exercise 1
+      PRACTICE: Exercise 2
+      PRACTICE: Exercise 3
+      PRACTICE: Exercise 4
+      PRACTICE: Exercise 5
+      PRACTICE: Exercise 6
+
+========================================================================
+END OF SYLLABUS
+========================================================================
+
+Repository source: Scrimba Fullstack Developer Challenge Files.
+This document is a course-outline index; it does not reproduce solution code
+or lesson content from the repository.
