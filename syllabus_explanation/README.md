@@ -21,7 +21,7 @@ actually covers, and what is a verified gap.
 - [12. Databases](./12-databases/README.md) — written (SQL queries covered; joins absent)
 - [13. Express.js](./13-express-js/README.md) — written (gap documented; Node bridge table)
 - [14. User Interface Design](./14-user-interface-design/README.md) — written (gap documented)
-- [15. React.js Fundamentals](./15-react-js-fundamentals/README.md) — placeholder
+- [15. React.js Fundamentals](./15-react-js-fundamentals/README.md) — written (Tenzies capstone gap documented)
 - [16. Testing](./16-testing/README.md) — written (gap documented)
 - [17. Advanced React.js](./17-advanced-react-js/README.md) — placeholder
 - [18. TypeScript](./18-typescript/README.md) — placeholder
