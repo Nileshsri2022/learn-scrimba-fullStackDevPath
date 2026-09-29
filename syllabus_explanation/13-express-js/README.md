@@ -16,10 +16,11 @@ the video addresses it head-on at 21:24:
 > name but two. Imagine as a front-end equivalent, imagine knowing jQuery without knowing
 > JavaScript."
 
-And again, at the end of the first Node project (22:23), when the code is at its most
-hand-rolled:
+And again, at 22:23, immediately after hand-parsing query parameters with the `URL` constructor
+— "It's overly complex with horrible verbose code":
 
-> "[The] good news is that the Express framework [does this for you]."
+> "Well, the good news is that the Express framework abstracts this away and makes it really,
+> [simple]."
 
 Verified absences across the whole transcript:
 
