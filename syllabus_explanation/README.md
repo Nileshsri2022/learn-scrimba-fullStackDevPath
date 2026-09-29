@@ -18,8 +18,8 @@ actually covers, and what is a verified gap.
 - [09. APIs and Async JavaScript](./09-apis-and-async-javascript/README.md) — written (fundamentals covered; projects absent)
 - [10. AI Engineering](./10-ai-engineering/README.md) — written (partial transcript coverage)
 - [11. Node.js](./11-node-js/README.md) — written (full transcript coverage)
-- [12. Databases](./12-databases/README.md) — placeholder
-- [13. Express.js](./13-express-js/README.md) — placeholder
+- [12. Databases](./12-databases/README.md) — written (SQL queries covered; joins absent)
+- [13. Express.js](./13-express-js/README.md) — written (gap documented; Node bridge table)
 - [14. User Interface Design](./14-user-interface-design/README.md) — written (gap documented)
 - [15. React.js Fundamentals](./15-react-js-fundamentals/README.md) — placeholder
 - [16. Testing](./16-testing/README.md) — written (gap documented)
