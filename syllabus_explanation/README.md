@@ -17,7 +17,7 @@ actually covers, and what is a verified gap.
 - [08. Responsive Design](./08-responsive-design/README.md) — written (gap documented)
 - [09. APIs and Async JavaScript](./09-apis-and-async-javascript/README.md) — written (fundamentals covered; projects absent)
 - [10. AI Engineering](./10-ai-engineering/README.md) — written (partial transcript coverage)
-- [11. Node.js](./11-node-js/README.md) — placeholder
+- [11. Node.js](./11-node-js/README.md) — written (full transcript coverage)
 - [12. Databases](./12-databases/README.md) — placeholder
 - [13. Express.js](./13-express-js/README.md) — placeholder
 - [14. User Interface Design](./14-user-interface-design/README.md) — written (gap documented)
