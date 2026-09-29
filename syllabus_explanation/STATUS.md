@@ -1,121 +1,135 @@
 # Explanation Status Audit
 
-Audit date: 29 September 2026 (updated after writing modules 04, 05, 10, 14, 16)
+Audit date: 29 September 2026 — **final pass, all 20 modules written.**
 Sources checked:
 - `fullstack_developer_syllabus.txt` (20 modules, 85 sections, 1391 items)
-- `[SubtitleTools.com] Become a Fullstack Developer from Scratch ... .en.txt` (221,189 lines, runtime 47:29:18)
+- `[SubtitleTools.com] Become a Fullstack Developer from Scratch ... .en.txt` (221,189 lines,
+  runtime 47:29:18)
 
 ## Verdict in one line
 
-**Six modules are written (01, 04, 05, 10, 14, 16). The remaining fourteen are still placeholders** —
-their "Ordered syllabus" block is a verbatim copy of the matching block in
-`fullstack_developer_syllabus.txt` with zero added explanation. That is why Module 13 (Express.js)
-still looks like a bare lesson list.
+**All 20 module READMEs are now written and transcript-based.** Each one states its own
+coverage honestly up front: six modules are full-coverage, seven are partial, and seven are
+verified gaps (one of which — Testing — has nothing at all).
 
-A written module is not the same as a fully covered one. The transcript does not contain material
-for every module, so each written file states its own coverage honestly up front:
+A written module is not the same as a fully covered one. The compilation video simply does
+not contain courses for every syllabus module, and the READMEs say so rather than inventing
+content. Summary:
 
 | Module | Transcript coverage |
 |---|---|
-| 01. Introduction | Covered |
+| 01. Introduction | Covered (00:00–00:55) |
+| 02. HTML and CSS Fundamentals | Covered (00:05–05:30) |
+| 03. JavaScript Fundamentals | Covered (05:30–14:02) |
 | 04. Tools of the Trade | Sections 01 and 03 covered; Section 02 absent (the instructor says on tape it was unrecorded) |
 | 05. Accessible Development | No dedicated course; 5 of 23 topics covered as asides elsewhere |
+| 06. Essential CSS | **Nothing.** Verified gap — the compilation skips the course |
+| 07. Essential JavaScript | Section 04 covered (15:14–18:27); Sections 01–03 absent |
+| 08. Responsive Design | **Nothing.** "media quer(y/ies)" = 0 matches across the whole transcript |
+| 09. APIs and Async JavaScript | Fundamentals covered (18:27–19:42); projects absent |
 | 10. AI Engineering | Section 01 covered in full; Sections 03 (RAG) and 05 (Agents) absent |
+| 11. Node.js | Covered (21:21–24:54, Tom Chant) |
+| 12. Databases | SQL basics covered (24:54–26:33, Greger); GROUP BY/HAVING + all of Section 03 absent |
+| 13. Express.js | **Nothing.** Verified gap — documented with a Node-bridge table (the Express code the syllabus expects is taught as raw Node) |
 | 14. User Interface Design | **Nothing.** Zero matches for every design term searched |
+| 15. React.js Fundamentals | Sections 01/03/04/05/07 covered (26:31–40:14, Bob Ziroll); **Tenzies capstone promised and claimed but absent** |
 | 16. Testing | **Nothing.** Zero matches for every testing term searched |
+| 17. Advanced React.js | **Nothing.** Biggest working-developer gap: context, custom hooks, performance, React Router, Supabase, auth — the Learn React outro advertises the course this compilation never includes |
+| 18. TypeScript | Covered (40:14–43:08: Bob Ziroll + Rachel Johnson); the Typed Tenzies solo project has no lessons by design |
+| 19. Next.js | Covered (43:08:56–47:29:18, Bob Ziroll, PrintForge + Cat Facts); ends at the search feature exactly where the syllabus ends |
+| 20. Launching Your Career | **Nothing.** The video ends at 47:29:18 before any career module |
 
-## Verification method
+## Definitive transcript map
 
-1. Any README containing the heading `## Ordered syllabus` was treated as a candidate stub.
-2. Every non-blank line after that heading was tested for verbatim presence in
-   `fullstack_developer_syllabus.txt`.
-3. Result: for all 19 stub files, **0 lines** were original text. 100% copied outline.
-4. Module 01 has no `## Ordered syllabus` dump; it contains prose, code samples, a practice task
-   and a readiness check, and its content matches transcript lines ~110–200
-   ("I code, therefore I am", `index.html`, `h1` opening/closing tags).
+| Transcript time | Course | Syllabus module(s) |
+|---|---|---|
+| 00:00–00:55 | Path introduction | 01 |
+| 00:05–05:30 | HTML & CSS (Per) | 02 |
+| 02:03–02:1x | Accessibility asides (Per) | 05 |
+| 05:30–14:02 | JavaScript (Per, + Treasure, + Tom Chant AI aside) | 03, 07 (S04 only), 09 (part) |
+| 14:02–15:14 | Tooling: VS Code, terminal, Git/GitHub | 04 |
+| 15:14–18:27 | "Make JS stick" section | 07 |
+| 18:27–19:42 | Fetch & async | 09 |
+| 19:42–21:21 | AI engineering | 10 |
+| 21:21–24:54 | Node.js (Tom Chant) | 11, 13 (as raw Node) |
+| 24:54–26:33 | SQL (Greger) | 12 |
+| 26:31–40:14 | React (Bob Ziroll) | 15, 05 (ARIA live aside) |
+| 40:14–43:08 | TypeScript (Bob Ziroll, Rachel Johnson) | 18 |
+| 43:08–47:29 | Next.js (Bob Ziroll) | 19 |
+| — | *(nothing)* | 06, 08, 13, 14, 16, 17, 20 |
 
 ## Per-module table
 
-| Module | Title | Status | Own words | Syllabus items to cover (sections / lessons / practices) |
+| Module | Title | Status | ~Words | Coverage |
 |---|---|---|---|---|
-| 01 | Introduction | **Written** (transcript-based) | ~1139 | 2 / 6 / 2 |
-| 02 | HTML and CSS Fundamentals | Placeholder — outline only | 0 | 5 / 67 / 17 |
-| 03 | JavaScript Fundamentals | Placeholder — outline only | 0 | 4 / 104 / 35 |
-| 04 | Tools of the Trade | **Written** (per-lesson) | ~5072 | 3 / 11 / 7 |
-| 05 | Accessible Development | **Written** (coverage map + 5 topics) | ~3534 | 20 / 6 / 0 |
-| 06 | Essential CSS | Placeholder — outline only | 0 | 3 / 43 / 13 |
-| 07 | Essential JavaScript | Placeholder — outline only | 0 | 4 / 100 / 31 |
-| 08 | Responsive Design | Placeholder — outline only | 0 | 3 / 44 / 18 |
-| 09 | APIs and Async JavaScript | Placeholder — outline only | 0 | 4 / 78 / 33 |
-| 10 | AI Engineering | **Written** (per-lesson) | ~4863 | 3 / 14 / 0 |
-| 11 | Node.js | Placeholder — outline only | 0 | 2 / 24 / 12 |
-| 12 | Databases | Placeholder — outline only | 0 | 2 / 27 / 42 |
-| 13 | Express.js | Placeholder — outline only | 0 | 3 / 32 / 2 |
-| 14 | User Interface Design | **Written** (documented gap) | ~1353 | 3 / 13 / 0 |
-| 15 | React.js Fundamentals | Placeholder — outline only | 0 | 6 / 121 / 61 |
-| 16 | Testing | **Written** (documented gap) | ~1080 | 5 / 0 / 0 |
-| 17 | Advanced React.js | Placeholder — outline only | 0 | 5 / 116 / 46 |
-| 18 | TypeScript | Placeholder — outline only | 0 | 3 / 36 / 26 |
-| 19 | Next.js | Placeholder — outline only | 0 | 2 / 26 / 12 |
-| 20 | Launching Your Career | Placeholder — outline only | 0 | 5 / 50 / 31 |
+| 01 | Introduction | **Written** | 1,136 | Full |
+| 02 | HTML and CSS Fundamentals | **Written** | 5,159 | Full |
+| 03 | JavaScript Fundamentals | **Written** | 4,570 | Full |
+| 04 | Tools of the Trade | **Written** | 4,969 | Partial (S02 absent, on tape) |
+| 05 | Accessible Development | **Written** | 3,471 | Asides only (5/23 topics) |
+| 06 | Essential CSS | **Written** | 1,375 | **Gap** |
+| 07 | Essential JavaScript | **Written** | 2,995 | Partial (S04 only) |
+| 08 | Responsive Design | **Written** | 1,321 | **Gap** |
+| 09 | APIs and Async JavaScript | **Written** | 3,232 | Partial |
+| 10 | AI Engineering | **Written** | 4,764 | Partial (S01 only) |
+| 11 | Node.js | **Written** | 2,749 | Full |
+| 12 | Databases | **Written** | 2,435 | Partial |
+| 13 | Express.js | **Written** | 1,513 | **Gap** (Node bridge table) |
+| 14 | User Interface Design | **Written** | 1,336 | **Gap** |
+| 15 | React.js Fundamentals | **Written** | 7,189 | Mostly full; Tenzies absent |
+| 16 | Testing | **Written** | 1,063 | **Gap** (zero items) |
+| 17 | Advanced React.js | **Written** | 2,270 | **Gap** |
+| 18 | TypeScript | **Written** | 3,900 | Full (solo project = spec only) |
+| 19 | Next.js | **Written** | 4,032 | Full |
+| 20 | Launching Your Career | **Written** | 1,769 | **Gap** |
 
-The "own words" column counts words outside the copied outline and the two boilerplate lines
-(`## Study path` + its one-sentence paragraph), which are identical in all 19 stub files.
+## Verification method
 
-## Where each module lives in the transcript
+1. Every placeholder README was identified by its `## Ordered syllabus` heading and 100%
+   verbatim-copied outline (see the previous audit; 19 of 20 files started that way).
+2. Each module was then written against the transcript with time-ranged searches
+   (`.index/rsearch.py START END "regex"`) plus full `awk` region reads — never truncated
+   search output, which once produced a false "ORDER BY is absent" reading.
+3. **Absence claims require zero-match searches across the entire transcript**, plus an
+   examination of near-misses (e.g. " NavLink" hits are Module 19's own component name;
+   "agile/scrum" hits are "Scrimba" mistranscriptions; "vitest" is `npm create vite@latest`
+   misheard).
+4. **Presence claims require a located timestamp**, and quotes are checked verbatim against
+   the transcript before being committed.
+5. Promise-vs-delivery discrepancies are documented rather than smoothed over — e.g. the
+   React outro claims "we built two back-to-back games" (40:12:03) but Tenzies was never
+   built in this recording.
 
-First mention timestamps, useful as anchors when writing the remaining modules:
+## Findings recorded along the way
 
-| Topic | First transcript timestamp |
-|---|---|
-| HTML / first page | 00:01:30 |
-| Accessibility | 02:03:48 |
-| Node / Express region | 05:32:27 |
-| Responsive design | 10:54:51 |
-| Tailwind / Next.js region | 43:11:05 |
-| End of transcript | 47:29:18 |
-
-## What "complete" should mean for the remaining modules
-
-Module 01 sets the quality bar. To match it, each module README needs:
-
-1. A completion-status note stating how transcript coverage maps to syllabus activity names.
-2. Step-by-step prose explanation drawn from the transcript, with code blocks.
-3. A "Mapping to the syllabus activities" section, honestly flagging activities the transcript
-   never names out loud.
-4. A "What this module teaches" summary.
-5. A small practice task.
-6. A readiness check for the next module.
-7. The exact syllabus order at the end.
-
-Module 01 covers 8 syllabus items. Module 13 alone covers 37, and Module 15 covers 188, so the
-larger modules will need to be written in several passes rather than one.
-
-## Findings recorded while writing modules 04, 05, 10, 14 and 16
-
-These are verified transcript facts that affect the remaining modules:
-
-1. **Module 08 (Responsive Design) is at risk.** "media quer(y/ies)" returns **0 matches** in the
-   entire transcript. Module 08 lists 44 lessons on responsive layouts. Check this before starting it.
-2. **Testing is entirely absent.** The single "vitest" hit is the transcriber mishearing
-   `npm create vite@latest`, not the Vitest test runner.
-3. **RAG, embeddings and vector databases are entirely absent.** "embedding", "vector" and
-   "supabase" all return 0 matches, so Module 10 Section 03 and probably parts of Module 12 are gaps.
-4. **Syllabus numbering gaps sometimes mark content the transcript does have.** Module 04 Section 03
-   jumps from lesson 04 to lesson 06; the transcript fills that slot with a full merge-conflict
-   lesson. Worth checking other gaps the same way rather than assuming missing means absent.
-5. **Accessibility is taught as asides scattered across other modules**, including inside React
-   (labels at 33:04, ARIA live regions at 39:45). Topic order in the syllabus is not the order the
-   transcript teaches in.
+1. **Seven modules have no course in this compilation at all**: 06 (Essential CSS), 08
+   (Responsive Design), 13 (Express), 14 (UI Design), 16 (Testing), 17 (Advanced React), and
+   20 (Career). Each README documents the verification and the nearest substitutes.
+2. **Module 04's missing Section 02 is confirmed on tape** — the instructor says it went
+   unrecorded. Numbering gaps elsewhere (Module 04 lesson 05, Module 15 Section 02, Module 17
+   Section 03, Module 20 Sections 01–03) were each checked individually rather than assumed.
+3. **Tenzies is the one promise the video breaks**: promised at 26:32:42, claimed complete at
+   40:12:03, absent everywhere. Module 18's "Typed Tenzies" solo project therefore has no
+   untyped foundation in this recording — both READMEs say so.
+4. **The Next.js course was released iteratively** and this recording stops where its second
+   section stops (search feature). The instructor points to future database work (46:57:13)
+   that never arrives. The syllabus also stops there, so this is a boundary, not a gap.
+5. **The career material that does exist** is an aside: Module 03's LinkedIn/recruiter story
+   of Justin (08:31–08:32), Module 09's promises-as-job-interview analogy (18:59), and one
+   interview tip in the Next.js course (47:09:08). Module 20's README catalogs all three.
+6. **Speech-to-text pitfalls**: "vitest" for `vite@latest`, "Scrumba/Scruma" for Scrimba,
+   "Nex.js" for Next.js, "ARYA" for ARIA, spaced-out identifiers ("use state" for `useState`,
+   "form data" for `FormData`). Identifiers must be searched in spoken form.
+7. **The syllabus's own oddities**: Module 07 is entirely Section 04 of the JS course's
+   syllabus; Module 09's projects live in the AI module; Module 13's content is inside
+   Module 11's region as raw Node. The READMEs bridge these with tables.
 
 ## Suggested next steps
 
-Remaining placeholders, in the order they are most worth writing:
+None for writing — all 20 modules are done. If this repo is extended later:
 
-- **13. Express.js** — the module originally asked about. Well covered, roughly 21:40–26:50.
-- **11. Node.js** and **12. Databases** — the backend context Express depends on.
-- **15. React.js Fundamentals** — 188 syllabus items, ~13 hours of transcript. Needs several passes.
-- **03**, **07**, **09** — JavaScript, all well covered.
-- **02**, **06** — HTML and CSS, well covered.
-- **17**, **18**, **19**, **20** — Advanced React, TypeScript, Next.js, career.
-- **08** — check coverage first; the media query finding above suggests it may be another gap.
+- The honest way to fill the six empty modules is external material (Scrimba's actual
+  Essential CSS, Responsive Design, Express, Testing, Advanced React, and Career Essentials
+  courses), each README already lists what to look for.
+- A learner following only this transcript should read modules 06, 08, 13, 14, 15, 16, 17,
+  and 20 as gap maps, not lessons.

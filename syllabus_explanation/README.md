@@ -23,7 +23,7 @@ actually covers, and what is a verified gap.
 - [14. User Interface Design](./14-user-interface-design/README.md) — written (gap documented)
 - [15. React.js Fundamentals](./15-react-js-fundamentals/README.md) — written (Tenzies capstone gap documented)
 - [16. Testing](./16-testing/README.md) — written (gap documented)
-- [17. Advanced React.js](./17-advanced-react-js/README.md) — placeholder
-- [18. TypeScript](./18-typescript/README.md) — placeholder
-- [19. Next.js](./19-next-js/README.md) — placeholder
-- [20. Launching Your Career](./20-launching-your-career/README.md) — placeholder
+- [17. Advanced React.js](./17-advanced-react-js/README.md) — written (gap documented)
+- [18. TypeScript](./18-typescript/README.md) — written (Typed Tenzies solo project has no lessons by design)
+- [19. Next.js](./19-next-js/README.md) — written (PrintForge + Cat Facts; ends at search feature like the syllabus)
+- [20. Launching Your Career](./20-launching-your-career/README.md) — written (gap documented)
