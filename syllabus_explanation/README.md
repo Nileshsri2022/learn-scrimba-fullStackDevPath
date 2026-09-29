@@ -8,7 +8,7 @@ actually covers, and what is a verified gap.
 ## Modules
 
 - [01. Introduction](./01-introduction/README.md) — written
-- [02. HTML and CSS Fundamentals](./02-html-and-css-fundamentals/README.md) — placeholder
+- [02. HTML and CSS Fundamentals](./02-html-and-css-fundamentals/README.md) — written (full transcript coverage)
 - [03. JavaScript Fundamentals](./03-javascript-fundamentals/README.md) — placeholder
 - [04. Tools of the Trade](./04-tools-of-the-trade/README.md) — written
 - [05. Accessible Development](./05-accessible-development/README.md) — written (partial transcript coverage)
