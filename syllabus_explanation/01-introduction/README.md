@@ -1,5 +1,8 @@
 # Module 01: Introduction
 
+## Source alignment note
+The supplied transcript does not contain chapter markers matching every repository activity in this module. Its opening minutes introduce the full course and then move into HTML fundamentals. The repository syllabus is therefore used for the activity order, while the explanation below only claims ideas that are supported by the corresponding transcript content. The small “cake” and “first app” activity names come from the repository challenge outline, not from explicit transcript chapter titles.
+
 ## Purpose
 This opening module introduces the learning environment and turns a small set of visual requirements into a working web page. The important lesson is not the finished page; it is the habit of changing one requirement at a time, previewing the result, and checking that the implementation matches the instruction.
 
