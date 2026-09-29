@@ -67,10 +67,10 @@ Two honest framing notes:
 
 ### Course philosophy, first (26:31–26:39)
 
-- "the easy way is the hard way" (26:34:35) — doing the challenges yourself is the only way the
+- "the easy way is the hard way" (26:34:33) — doing the challenges yourself is the only way the
   skills stick. It recurs at the first challenge: "you really will just be shorting your own
   education and your own practice if you decide to take the easy way out" (26:47:57).
-- "learn how to think in React" (26:39:10).
+- "learn how to think in React" (26:39:27).
 - Solo projects and Scrimba Pro are pitched at 26:33:04–26:33:28 ("We give you the
   specifications for the project, a design file to follow, and then leave it up to you to build
   the project from scratch").
