@@ -9,7 +9,7 @@ actually covers, and what is a verified gap.
 
 - [01. Introduction](./01-introduction/README.md) — written
 - [02. HTML and CSS Fundamentals](./02-html-and-css-fundamentals/README.md) — placeholder
-- [03. JavaScript Fundamentals](./03-javascript-fundamentals/README.md) — placeholder
+- [03. JavaScript Fundamentals](./03-javascript-fundamentals/README.md) — written
 - [04. Tools of the Trade](./04-tools-of-the-trade/README.md) — written
 - [05. Accessible Development](./05-accessible-development/README.md) — written (partial transcript coverage)
 - [06. Essential CSS](./06-essential-css/README.md) — placeholder
@@ -17,9 +17,9 @@ actually covers, and what is a verified gap.
 - [08. Responsive Design](./08-responsive-design/README.md) — placeholder
 - [09. APIs and Async JavaScript](./09-apis-and-async-javascript/README.md) — placeholder
 - [10. AI Engineering](./10-ai-engineering/README.md) — written (partial transcript coverage)
-- [11. Node.js](./11-node-js/README.md) — placeholder
-- [12. Databases](./12-databases/README.md) — placeholder
-- [13. Express.js](./13-express-js/README.md) — placeholder
+- [11. Node.js](./11-node-js/README.md) — written
+- [12. Databases](./12-databases/README.md) — written (Section 03 gap documented)
+- [13. Express.js](./13-express-js/README.md) — written (gap documented)
 - [14. User Interface Design](./14-user-interface-design/README.md) — written (gap documented)
 - [15. React.js Fundamentals](./15-react-js-fundamentals/README.md) — placeholder
 - [16. Testing](./16-testing/README.md) — written (gap documented)
